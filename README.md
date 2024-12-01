@@ -1,43 +1,53 @@
 # Todo App
-This project is a simple to-do list application built using HTML, CSS, and JavaScript. It allows users to manage their tasks effectively by providing features to add, edit, complete, and delete tasks. The app also includes a task counter and persistent storage to ensure your tasks remain intact even after the page refreshes.
 
+This project aims to build a to do list application by applying HTML, CSS and Javascript. The application allows users to manage their tasks effectively.
 
-## Features
+## Level 1: Todo App Basic Requirements
 
-### Adding a Todo:
-- Write the task in the input field to create a new to-do item.
-- Click the "Add" button to add the task to the list.
+In this level, the application includes the following features:
 
-### Completing a Todo:
-- Click the checkbox next to a task to mark it as complete.
+1. Adding a Todo:
 
-### Deleting a Todo:
-- Click the delete symbol next to a task to remove it from the list.
+   - Display an input field where users can enter a new todo item.
+   - Include an "Add" button to add the entered todo item to the list.
 
-### Editing a Todo:
-- Click the "Edit" symbol next to a task to update the task name through a prompt.
+2. Rendering Todo List:
 
-### Todo Counter:
-- Displays the total number of tasks and the number of completed tasks.
+   - Render the list of todos on the screen.
+   - Each todo item should display a checkbox and the task description.
 
-### Persistent Storage:
-- The to-do list persists even after refreshing the page, ensuring that your tasks are saved.
+3. Completing a Todo:
 
-## Usage
+   - When a checkbox is clicked, mark the corresponding todo item as complete.
+   - Visually indicate the completion status of each todo item.
 
-- Open the app in your browser.
-- Add a task by typing in the input field and clicking "Add."
-- Mark tasks as complete by clicking the checkbox.
-- Delete tasks by clicking the delete symbol.
-- Edit tasks by clicking the edit symbol and updating the task name.
+4. Deleting a Todo:
+   - Implement a "Delete" button next to each todo item.
+   - When the button is clicked, remove the corresponding todo item from the list.
 
-## Technologies Used
+## Level 2: Todo App Additional Requirements
 
-- **HTML**: Used for structuring the application.
-- **CSS**: Used for styling the application.
-- **JavaScript**: Used for the functionality of the to-do list.
+In addition to the basic requirements, the application enhances its functionality with the following features:
 
-## Contributing
+1. Editing a Todo:
 
-Feel free to fork this repository and contribute by opening a pull request with improvements or bug fixes.
+   - Implement an "Edit" button next to each todo item.
+   - When the button is clicked, allow users to update the task description of the corresponding todo.
 
+2. Todo Counter:
+
+   - Include a counter that displays the total number of todo items.
+   - Display the number of completed items as well.
+
+## Level 3: Todo App Bonus Requirements (Optional)
+
+If you finish the previous requirements before the deadline, you can tackle the following bonus tasks:
+
+1. Persistent Storage:
+   - Add the ability to persist todo items using local storage.
+   - Ensure that the list remains intact even after the page is refreshed.
+
+`Please note that the additional and bonus requirements are  optional and can be completed if you have additional time `
+
+**_DEADLINE THURSDAY 17/10/2014 at 5pm_**
+Happy coding!

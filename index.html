@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>To do app</title>
+</head>
+<body>
+
+<div class="container">
+    <div class="title">
+        <h2>TO DO <img src="./images/todo.png" alt="To Do Icon"></h2>
+        
+        <div class="row">
+            
+            <input type="text" id="input-box" placeholder="Add your task">
+            <button onclick="addTask()">Add</button>
+        </div>
+
+        <ul id="list">
+            <!-- List of tasks will appear here -->
+        </ul>
+
+        <!-- Todo counters -->
+        <div class="todo-counters">
+          <p><img src="./images/total.png" alt="Total Todos Icon" class="counter-icon">Total Todos: <span id="total-count">0</span></p>
+          <p><img src="./images/completed.png" alt="Completed Todos Icon" class="counter-icon">Completed Todos: <span id="completed-count">0</span></p>
+      </div>
+
+    </div>
+
+<script src="script.js"></script>
+</div>
+
+</body>
+</html>

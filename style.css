@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins' , sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(#31572C,#ECF39E);
+    padding: 10px;
+}
+
+.title{
+    width: 100%;
+    max-width: 540px;
+    background: #fff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+
+.title h2{
+    color: #132A13;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.title h2 img{
+    width: 30px;
+    margin-left: 10px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: #132A13;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+button:hover {
+    background: #ECF39E;
+}
+
+ul li {
+    list-style: none;
+    font-size: 25px;
+    padding: 12px 8px 12px 50px;
+    margin-bottom: 8px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+    background-color: #90A955;
+    border-radius: 5px;
+    color: #132A13;
+}
+
+ul li:hover {
+    background-color: #A7C13D;
+    cursor: pointer;
+}
+ul li::before {
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(./images/unchecked.png);
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 8px;
+
+}
+
+ul li.checked{
+    color: #31572C;
+    text-decoration: line-through;
+}
+
+ul li.checked::before{
+    background-image: url(./images/checked.png);
+}
+
+ul li span {
+    position: absolute;
+    right: 0;
+    top: 6px;
+    width: 40px;
+    height: 40px;
+    font-size: 29px;
+    color: #132A13;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+ul li span:hover {
+    background: #edeef0;
+}
+
+ul li .edit-btn {
+    position: absolute;
+    right: 35px; 
+    top: 12px;
+    background-color: #31572C;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+ul li .edit-btn:hover {
+    background-color: #ECF39E;
+}
+
+.todo-counters { 
+    margin-top: 40px ;
+}
+
+.todo-counters p {
+    padding: 12px 8px 12px 12px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #31572C;
+    font-weight: bold; 
+    margin-top: 14px;
+    border-radius: 5px;
+    background-color: #ECF39E;
+}
+.counter-icon {
+    width: 20px; 
+    margin-right: 5px;  
+    vertical-align: middle;  
+}
+
+#total-count, #completed-count{
+    margin-left: 30px;
+    color: #132A13;
+}
